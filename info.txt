@@ -1,0 +1,35 @@
+﻿## Installing Jenkins
+
+1) Download war file from jenkins
+
+2) Trigger installation
+
+-> java -jar jenkins.war 	(This will start installation)
+
+-> Go to - localhost:8080	(Jenkins unlock screen will appear)
+ 
+Key for installing jenkins - 1d25ea925d0d4337aa28481179be3372 (Enter this key to activate jenkins)
+
+3) Setup account
+
+Username:		shariqparwez
+Password:		••••••••
+Confirm password:	•••••••• (password)
+Full name:		Shariq Parwez
+E-mail address:		shariqparwez@outlook.com
+
+======================================================================================================
+
+## Get Project
+
+1) https://github.com/parwezshariq/Jenkins.git (Checkout code Master branch for initial setup)
+
+2) Import in IntelliJ as Maven project
+
+3) Do maven - clean, compile, test, package
+
+
+
+
+
+

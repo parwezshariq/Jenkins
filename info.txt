@@ -80,9 +80,50 @@ Jenkins Home Page > atmosphere > workspace
 
 2) Select 'Build Now'
 
+====================================================================================================
 
+## Archiving Artifacts
 
+1) atmosphere > Configure > Post-build Actions > Choose 'Archive the artifacts'
 
+    Files to archive - target/*.jar
+        > Apply > Save
+
+2) Select 'Build Now'
+
+====================================================================================================
+
+## Cleaning up Past Builds
+
+1) atmosphere > Configure > Build > Update 'Invoke top-level Maven targets'
+
+    Goals - clean package
+        > Apply > Save
+
+2) Select 'Build Now'
+
+====================================================================================================
+
+## Challenge and Importing Job config.xml Files
+
+1) Navigate to C:\Users\shariqparwez\.jenkins\jobs > atmosphere
+    Copy - config.xml
+
+2) Navigate to C:\Users\shariqparwez\.jenkins\jobs
+    Make new folder - atmosphereCopy
+
+    Navigate to C:\Users\shariqparwez\.jenkins\jobs > atmosphereCopy
+    Paste - config.xml
+
+3) Jenkins Dashboard > Manage Jenkins > Reload Configuration from Disk
+
+====================================================================================================
+
+## Check for logs
+
+Jenkins Dashboard > Manage Jenkins > System Log > All Jenkins Logs
+
+====================================================================================================
 
 
 

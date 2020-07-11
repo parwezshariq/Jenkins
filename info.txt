@@ -1,4 +1,11 @@
-﻿## Installing Jenkins
+﻿Apache Maven 3.6.3
+Java version: 1.8.0_211, vendor: Oracle Corporation
+Default locale: en_IN
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+======================================================================================================
+
+## Installing Jenkins
 
 1) Download war file from jenkins
 
@@ -49,6 +56,31 @@ E-mail address:		shariqparwez@outlook.com
 4) Configure > Build > Choose 'Invoke top-level Maven targets'
 
     Goals - compile
+
+====================================================================================================
+
+## Peeking into the Jenkins Workspace
+
+Jenkins workspace location - C:\Users\shariqparwez\.jenkins\workspace\atmosphere
+
+====================================================================================================
+
+## Browsing the Workspace in Jenkins
+
+Jenkins Home Page > atmosphere > workspace
+
+====================================================================================================
+
+## App Packaging in Jenkins
+
+1) atmosphere > Configure > Build > Update 'Invoke top-level Maven targets'
+
+    Goals - package
+        > Apply > Save
+
+2) Select 'Build Now'
+
+
 
 
 

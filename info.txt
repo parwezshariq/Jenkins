@@ -22,11 +22,33 @@ E-mail address:		shariqparwez@outlook.com
 
 ## Get Project
 
-1) https://github.com/parwezshariq/Jenkins.git (Checkout code Master branch for initial setup)
+1) https://github.com/parwezshariq/spring-boot-sample-atmosphere.git (Checkout code's Develop branch for initial setup)
 
 2) Import in IntelliJ as Maven project
 
 3) Do maven - clean, compile, test, package
+
+======================================================================================================
+
+## Create Jenkins Build Job for compiling project
+
+1) Restart jenkins (java -jar jenkins.war) and login
+
+2) Create new job > Freestyle project > name: atmosphere > OK
+
+3) Configure > Source Code Management > Choose Git
+
+    Repositories -
+
+        Repository URL - https://github.com/parwezshariq/spring-boot-sample-atmosphere.git
+
+    Branches to build -
+
+        Branch Specifier (blank for 'any') - */develop
+
+4) Configure > Build > Choose 'Invoke top-level Maven targets'
+
+    Goals - compile
 
 
 
